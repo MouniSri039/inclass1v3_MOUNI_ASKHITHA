@@ -1,0 +1,4 @@
+# Declarative UI and GitHub Collaboration Notes
+
+I reviewed how Flutter uses a declarative approach to update the interface. When application state changes, setState() tells Flutter to rebuild the relevant UI based on the current state instead of manually changing individual interface elements.I also worked through the GitHub collaboration workflow using a separate branch. Working on mouni-notes allowed me to make my contribution without directly changing main. Using a pull request also gives my teammate an opportunity to review the changes before they are merged.
+I reviewed how the shared tabs list helps keep the TabBar and TabBarView consistent. Using the same source for both reduces the chance that the tab labels and corresponding pages become mismatched.
